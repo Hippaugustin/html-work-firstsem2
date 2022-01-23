@@ -1,0 +1,179 @@
+body, html {
+ margin:0;
+ padding:0;
+ width:100%;
+ height:100%;
+} 
+
+body {
+ background-color:blue;
+ background-image: url(../images/flag.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+body
+{
+line-height: 2em;
+}
+
+#outer
+{
+    margin: 1.5em;
+}
+
+nav
+{
+    width: 10em;
+    background-color: red;
+    float: left;
+}
+
+header,main
+{
+    margin-left: 12em;
+}
+
+header
+{
+    background-color: #9FB5CD;
+    padding: 1em;
+}
+
+h1
+{
+    font-size: 2em
+}
+
+p
+{
+    text-align: justify;
+}
+
+ul
+{
+padding: 0em;
+list-style-type:none;
+
+}
+nav li
+{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+nav li a:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:visited
+{
+ color: yellow;
+text-decoration: none;
+}
+
+nav li a:hover
+{
+    color: green;
+   background-color: #2586d7;
+}
+
+nav li a:active
+{
+    background-color: aqua;
+    color: cyan;
+}
+
+dt
+{
+    font-weight: bold;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    
+}
+
+dd
+{
+    margin-left: 1.5em;
+    line-height: .75em;
+}
+
+
+nav li a
+{
+    background-color: purple;
+    width: 100%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    
+    padding-left: 0em;
+    padding-right: 0em;
+    display: inline-block;
+}
+.ui.container {
+    margin-top:3em;
+  }
+  
+  
+  
+  
+  .ui.tabular.menu {
+  
+    border-bottom: 2px solid brown;
+  }
+  
+  
+  
+  .ui.tabular.menu .item 
+  {
+      font-family:sans-serif;
+      color: burlywood;
+      font-weight:bold;
+  }
+  
+  
+  .ui.tabular.menu .item:hover {
+      background-color:aqua;
+      color:white;
+  }
+  
+  
+  
+  
+  .ui.tabular.menu .active.item
+  {
+  border: 1px solid lightsalmon;
+  
+  }
+  
+  .ui.tabular.menu .active.item {
+      background-color:blue;
+      color:white;
+      border-color: red;
+  }
+  
+  .img{
+      text-align:justify;
+  }
+  
+  .ui.table thead th
+{
+background-color: rgb(158, 76, 76);
+}
+
+.ui.striped.table > tr:nth-child(2n),.ui.striped.table tbody tr:nth-child(2n)
+{
+ background-color: rgba(158,76,76, .3);
+}
+
+.ui.selectable.table tbody tr:hover,.ui.table tbody tr td.selectable:hover
+{
+     background-color: rgba(158,76,76, .5) !important;
+}
